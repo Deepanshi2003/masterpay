@@ -1,5 +1,5 @@
 .contactbanner{
-    background-image: url('C:/Users/hp/OneDrive/Desktop/office/masterpay/public/Images/Contactus/contact-banner.png');
+    background-image: url('/public/Images/Contactus/contact-banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
