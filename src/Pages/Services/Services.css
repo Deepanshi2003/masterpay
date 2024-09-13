@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.servicebanner{
+    background-image: url('../../../public/Images/Services/services-banner.png') ;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.serviceheading{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0px 10px;
+}
+.serviceheading h1{
+    font-family: "Cambria-Regular";
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    font-size: 4vw;
+    text-shadow: 1px 1px 3px #000;
+}
+.services-content{
+    padding: 80px 0px 0px;
+}
+.serviceheading h5{
+    font-family: "Cambria-Regular";
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+        color: #fff;
+    font-size: 2.1vw;
+    margin: 10px 0 0;
+}
+
+@media (max-width: 1200px) {
+    .serviceheading h1 {
+        font-size: 4vw; /* Adjust font size for large screens */
+    }
+
+    .serviceheading h5 {
+        font-size: 2.5vw; /* Adjust font size for large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .serviceheading h1 {
+        font-size: 6vw; /* Adjust font size for medium screens */
+        /* left: -50%; */
+    }
+
+    .serviceheading h5 {
+        font-size: 3.5vw; /* Adjust font size for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .serviceheading h1 {
+        font-size: 7vw; /* Adjust font size for small screens */
+    }
+
+    .serviceheading h5 {
+        font-size: 4vw; /* Adjust font size for small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .serviceheading h1 {
+        font-size: 9vw; /* Adjust font size for extra small screens */
+    }
+
+    .serviceheading h5 {
+        font-size: 5vw; /* Adjust font size for extra small screens */
+    }
+}
+.s-content{
+    margin-top: 7%;
+}
+.service1{
+    background-color: #EBCAD9;
+    padding: 80px;
+}
+
+.service-heading h3{
+    font-family: "Cambay", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #2B2B2B;
+}
+.service-heading p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #2b2b2bb2;
+}
+.line{
+    margin: 20px 0;
+    width: 80px;
+    color: #D40B2E;
+    height: 3px;
+    background-color: #D40B2E;
+}
+.service-text p{
+    font-family: "Montserrat", sans-serif;
+   font-size: 19px;
+   color:  #2b2b2bb2;
+   line-height: 45px;
+   letter-spacing: 0.5px;
+}
+.service2{
+    background-color: #F9D9D9;
+    padding: 80px;
+}
+.service3,.service4,.service5,.service6,.service7,.service8,.service9{
+    padding: 80px;
+}
+.service3{
+    background-color: #F7E5D9;
+}
+.service4{
+    background-color: #D1D3F6;
+}
+.service5{
+    background-color: #f6d6d6;
+}
+.service6{
+    background-color: #C4E4EE;
+}
+.service7{
+    background-color: #C9E8DB;
+}
+.service8{
+    background-color: #D2E2F8;
+}
+.service9{
+    background-color: #E6DDF4;
+}
+.img-ani:hover{
+    position: relative;
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+}
